@@ -1,0 +1,172 @@
+@media screen and (min-width:1200px) {
+    .container {
+        width: 1160px;
+    }
+
+/* =====================HEADER======================= */
+
+    .logo-header{
+        margin-right: 76px;
+    }
+
+    .page-header-contact-link {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .contact-link {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+/* =====================/HEADER======================= */
+
+/*====================MAIN====================*/
+/* ======================section-title================== */
+    .section-title{
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+    
+    .title{
+        margin-bottom: 48px;
+    }
+
+/* ======================/section-title================== */
+
+/* ======================section-features================== */
+    .section-features{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .features{
+        gap: 24px;
+    } 
+    
+    .box-features{
+        width: 264px;
+    }
+    
+    .box-icon-features {
+        background-color: var(--background-color-box-icon-features);
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    
+    .title-content{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .text-content{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+/* ======================section-features================== */
+/* ======================section-what-doing================== */
+    .section-what-doing {
+        display: block;
+        padding-bottom: 120px;
+    }
+
+
+    .menu-what-doing {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .title-what-doing {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: var(--letter-spacing-primery);
+        text-transform: capitalize;
+        margin-bottom: 72px;
+    }
+/* ======================/section-what-doing================== */
+/* ======================section-our-team================== */
+    .section-our-team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .container-our-team {
+        gap: 24px;
+    }
+
+/* ======================/section-our-team================== */
+/* ======================section-customers================== */
+.item-customers {
+    width: calc((100% - 150px)/6);
+}
+
+/* ======================/section-customers================== */
+/*====================/MAIN====================*/
+
+/*====================FOOTER====================*/
+    .section-footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .list-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        column-gap: 0;
+    }  
+    
+    .content-footer{
+        margin-bottom: 0;
+        margin-right: 120px;
+    }
+
+    .list-social-icon-footer{
+        margin-bottom: 0;
+        margin-right: 80px;
+    }
+
+    .form-email-input-footer {
+        width: auto;
+    }
+
+    .form-input-footer{
+        width: auto;
+    }
+    
+    .button-subscribe-footer{
+        width: auto;
+    }
+
+/*====================/FOOTER====================*/
+/*====================PORTFOLIO====================*/
+/*====================section-filters====================*/
+    .container-filters {
+        padding-top: 96px;
+        padding-bottom: 72px;
+    }
+/*====================/section-filters====================*/
+/*====================section-photo-portfolio====================*/
+    .container-photo-portfolio{
+        padding-bottom: 120px;
+    }
+
+
+    .box-photo-portfolio {
+        width: 360px;
+    }
+/*====================/section-photo-portfolio====================*/
+/*====================/PORTFOLIO====================*/
+}
