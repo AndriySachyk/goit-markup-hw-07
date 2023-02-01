@@ -142,9 +142,48 @@
             <div class="container">
             <h2 class="title-what-doing">What are we doing</h2>
             <ul class="menu-what-doing">
-                <li class="menu-item-what-doing"><img src="./images/computer.jpg" alt="комп'ютер на столі" width="360" height="300"></li>
-                <li class="menu-item-what-doing"><img src="./images/phone.jpg" alt="телефон" width="360" height="300"></li>
-                <li class="menu-item-what-doing"><img src="./images/hand-with-phone.jpg" alt="робота в телефоі" width="360" height="300"></li>
+                <li class="menu-item-what-doing">
+                    <picture>
+                        <source 
+                            srcset="./images/computer.webp 1x, ./images/computer@2x.webp 2x" 
+                            media="(min-width: 1200px)" 
+                            type="image/webp"
+                        />
+                        <source 
+                            srcset="./images/computer.jpg 1x, ./images/computer@2x.jpg 2x"
+                            media="(min-width: 1200px)"  
+                        />
+                        <img src="./images/computer.jpg" alt="комп'ютер на столі" >
+                    </picture>                
+                </li>
+                <li class="menu-item-what-doing">
+                    <picture>
+                        <source 
+                            srcset="./images/phone.webp 1x, ./images/phone@2x.webp 2x" 
+                            media="(min-width: 1200px)"
+                            type="image/webp" 
+                        />
+                        <source 
+                            srcset="./images/phone.jpg 1x, ./images/phone@2x.jpg 2x" 
+                            media="(min-width: 1200px)" 
+                        />
+                        <img src="./images/phone.jpg" alt="телефон">
+                    </picture>
+                </li>
+                <li class="menu-item-what-doing">
+                    <picture>
+                        <source 
+                            srcset="./images/hand_with_phone.webp 1x, ./images/hand_with_phone@2x.webp 2x" 
+                            media="(min-width: 1200px)" 
+                            type="image/webp" 
+                        />
+                        <source 
+                            srcset="./images/hand_with_phone.jpg 1x, ./images/hand_with_phone@2x.jpg 2x" 
+                            media="(min-width: 1200px)" 
+                        />
+                        <img src="./images/hand_with_phone.jpg" alt="робота в телефоі">
+                    </picture>
+                </li>
             </ul>
             </div>
         </section>
@@ -152,7 +191,37 @@
             <h2 class="title-our-team">Our Team</h2>
             <ul class="container container-our-team">
                 <li class="box-our-team">
-                    <img class="photo-our-team" src="./images/mark-guerrero.jpg" alt="photo mark" width="264" height="260">
+                    <picture>
+                        <source 
+                            srcset="./images/mark_guerrero_desktop.webp 1x, ./images/mark_guerrero_desktop@2x.webp 2x"
+                            media="(min-width:1200px)"
+                            type="image/webp"
+                        />
+                        <source 
+                            srcset="./images/mark_guerrero_tablet.webp 1x, ./images/mark_guerrero_tablet@2x.webp 2x"
+                            media="(min-width:768px)"
+                            type="image/webp"
+                        />
+                        <source 
+                            srcset="./images/mark_guerrero_mobile.webp 1x, ./images/mark_guerrero_mobile@2x.webp 2x"
+                            media="(max-width:767px)"
+                            type="image/webp"
+                        />
+                        <source 
+                            srcset="./images/mark_guerrero_desktop.jpg 1x, ./images/mark_guerrero_desktop@2x.jpg 2x"
+                            media="(min-width:1200px)"
+                        />
+                        <source 
+                            srcset="./images/mark_guerrero_tablet.jpg 1x, ./images/mark_guerrero_tablet@2x.jpg 2x"
+                            media="(min-width:768px)"
+                        />
+                        <source 
+                            srcset="./images/mark_guerrero_mobile.jpg 1x, ./images/mark_guerrero_mobile@2x.jpg 2x"
+                            media="(max-width:767px)"
+                        />
+
+                        <img class="photo-our-team" src="./images/mark_guerrero_mobile.jpg" alt="photo mark">
+                    </picture>
                     <h3 class="title-photo">Mark Guerrero</h3>
                     <p class="content-photo">Product Designer</p>
                     <ul class="icon-social-list">
@@ -187,7 +256,36 @@
                     </ul>
                 </li>
                 <li class="box-our-team">
-                    <img class="photo-our-team" src="./images/tom-ford.jpg" alt="photo tom" width="264" height="260">
+                    <picture>
+                        <source 
+                            srcset="./images/tom_ford_desktop.webp 1x, ./images/tom_ford_desktop@2x.webp 2x"
+                            media="(min-width:1200px)"
+                            type="image/webp" 
+                        />
+                        <source 
+                            srcset="./images/tom_ford_tablet.webp 1x, ./images/tom_ford_tablet@2x.webp 2x"
+                            media="(min-width:768px)" 
+                            type="image/webp" 
+                        />
+                        <source 
+                            srcset="./images/tom_ford_mobile.webp 1x, ./images/tom_ford_mobile@2x.webp 2x"
+                            media="(max-width:767px)" 
+                            type="image/webp" 
+                        />
+                        <source 
+                            srcset="./images/tom_ford_desktop.jpg 1x, ./images/tom_ford_desktop@2x.jpg 2x"
+                            media="(min-width:1200px)"
+                        />
+                        <source 
+                            srcset="./images/tom_ford_tablet.jpg 1x, ./images/tom_ford_tablet@2x.jpg 2x"
+                            media="(min-width:768px)" 
+                        />
+                        <source 
+                            srcset="./images/tom_ford_mobile.jpg 1x, ./images/tom_ford_mobile@2x.jpg 2x"
+                            media="(max-width:767px)" 
+                        />
+                        <img class="photo-our-team" src="./images/tom_ford_mobile.jpg" alt="photo tom">
+                    </picture>
                     <h3 class="title-photo">Tom Ford</h3>
                     <p class="content-photo">Frontend Developer</p>
                     <ul class="icon-social-list">
@@ -222,7 +320,35 @@
                     </ul>
                 </li>
                 <li class="box-our-team">
-                    <img class="photo-our-team" src="./images/camila-garcia.jpg" alt="photo camila" width="264" height="260">
+                    <picture>
+                        <source 
+                            srcset="./images/camila_garcia_desktop.webp 1x, ./images/camila_garcia_desktop@2x.webp 2x" 
+                            media="(min-width:1200px)"
+                            type="image/webp" 
+                        />
+                        <source
+                            srcset="./images/camila_garcia_tablet.webp 1x, ./images/camila_garcia_tablet@2x.webp 2x" 
+                            media="(min-width:768px)"
+                            type="image/webp" 
+                        />
+                        <source srcset="./images/camila_garcia_mobile.webp 1x, ./images/camila_garcia_mobile@2x.webp 2x" 
+                            media="(max-width:767px)"
+                            type="image/webp" 
+                        />
+                        <source 
+                            srcset="./images/camila_garcia_desktop.jpg 1x, ./images/camila_garcia_desktop@2x.jpg 2x" 
+                            media="(min-width:1200px)" 
+                        />
+                        <source 
+                            srcset="./images/camila_garcia_tablet.jpg 1x, ./images/camila_garcia_tablet@2x.jpg 2x" 
+                            media="(min-width:768px)" 
+                        />
+                        <source 
+                            srcset="./images/camila_garcia_mobile.jpg 1x, ./images/camila_garcia_mobile@2x.jpg 2x" 
+                            media="(max-width:767px)" 
+                        />
+                        <img class="photo-our-team" src="./images/camila_garcia_mobile.jpg" alt="photo camila">
+                    </picture>
                     <h3 class="title-photo">Camila Garcia</h3>
                     <p class="content-photo">Marketing</p>
                     <ul class="icon-social-list">
@@ -257,7 +383,37 @@
                     </ul>
                 </li>
                 <li class="box-our-team">
-                    <img class="photo-our-team" src="./images/daniel-wilson.jpg" alt="photo daniel" width="264" height="260">
+                    <picture>
+                        <source 
+                            srcset="./images/daniel_wilson_desktop.webp 1x, ./images/daniel_wilson_desktop@2x.webp 2x"
+                            media="(min-width:1200px)" 
+                            type="image/webp" 
+                        />
+                        <source 
+                            srcset="./images/daniel_wilson_tablet.webp 1x, ./images/daniel_wilson_tablet@2x.webp 2x"
+                            media="(min-width:768px)" 
+                            type="image/webp" 
+                        />
+                        <source 
+                            srcset="./images/daniel_wilson_mobile.webp 1x, ./images/daniel_wilson_mobile@2x.webp 2x"
+                            media="(max-width:767px)" 
+                            type="image/webp" 
+                        />
+                        <source 
+                            srcset="./images/daniel_wilson_desktop.jpg 1x, ./images/daniel_wilson_desktop@2x.jpg 2x"
+                            media="(min-width:1200px)" 
+                            
+                        />
+                        <source 
+                            srcset="./images/daniel_wilson_tablet.jpg 1x, ./images/daniel_wilson_tablet@2x.jpg 2x"
+                            media="(min-width:768px)" 
+                        />
+                        <source 
+                            srcset="./images/daniel_wilson_mobile.jpg 1x, ./images/daniel_wilson_mobile@2x.jpg 2x"
+                            media="(max-width:767px)"   
+                        />
+                        <img class="photo-our-team" src="./images/daniel_wilson_mobile.jpg" alt="photo daniel">
+                    </picture>
                     <h3 class="title-photo">Daniel Wilson</h3>
                     <p class="content-photo">UI Designer</p>
                     <ul class="icon-social-list">

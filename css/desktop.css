@@ -29,6 +29,22 @@
         padding-bottom: 188px;
     }
     
+    @media screen and (min-width:1200px) {
+        .section-title {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office_desktop.jpg);
+        }
+    }
+
+
+    @media screen and (min-device-pixel-radio: 2) and (min-width:1200px),
+    screen and (min-resolution: 192dpi) and (min-width:1200px),
+    screen and (min-resolution: 2dppx) and (min-width:1200px) {
+        .section-title {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office_desktop@2x.jpg);
+        }
+    }
+
+
     .title{
         margin-bottom: 48px;
     }
