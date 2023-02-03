@@ -890,6 +890,7 @@ ul,ol{
 
 
 .modal-close-bth{
+    padding: 0;
     position: absolute;
     display: flex;
     justify-content: center;
