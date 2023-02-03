@@ -64,6 +64,7 @@
 /* ======================section-title================== */
     .section-title{
         padding-bottom: 108px;
+        background-size: 768px 436px;
     }
 
 
@@ -127,6 +128,9 @@
 /* ======================/section-customers================== */
 /*====================/MAIN====================*/
 /*====================FOOTER====================*/
+    
+
+
     .list-footer {
         display: flex;
         flex-direction: row;
@@ -134,7 +138,6 @@
         flex-wrap: wrap;
         align-items: center;
         column-gap: 24px;
-        
     }
 
     .item-footer {
