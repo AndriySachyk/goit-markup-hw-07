@@ -68,6 +68,12 @@
         background-color: #FFFFFF;
     }
 
+    .button-model-mobile-menu:focus{
+        background-color: #FFFFFF;
+        border: none;
+        outline: none;
+    }
+
     .icon-social-list-mobile-menu {
         flex-wrap: wrap;
         justify-content: space-between;
