@@ -122,12 +122,23 @@
 
     .container-our-team {
         gap: 24px;
+
     }
 
 /* ======================/section-our-team================== */
 /* ======================section-customers================== */
+    .list-icon-customers {
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        row-gap: 0;
+        column-gap: 0;
+        justify-content: space-between;
+    }
+
     .item-customers {
-        width: calc((100% - 150px)/6);
+        width: 168px;
     }
 
 /* ======================/section-customers================== */
@@ -146,6 +157,7 @@
     }
 
     .list-footer {
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;

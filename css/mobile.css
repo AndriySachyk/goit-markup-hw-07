@@ -1,48 +1,22 @@
-@media screen and (min-width:480px) {
-    .container {
-        width: 428px;
-        padding-left: 16px;
-        padding-right: 16px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-/*====================MAIN====================*/
-/* ======================section-title================== */
-    .title {
-        width: 320px;
-    }
-/* ======================/section-title================== */
-/*====================/MAIN====================*/
-/*====================FOOTER====================*/
-    .content-footer{
-        width: 268px;
-    }   
-/*====================/FOOTER====================*/
-
-
-}
-
-
-
 @media screen and (max-width:767px) {
 /*====================HEADER==================*/
     
+/*====================MOBILE MENU====================*/
     .page-header-contact-link-mobile {
         display: none;
     }
 
     .page-header-nav{
-        margin-bottom: 284px;
+        display: flex;
+        flex-direction: column;
         gap: 40px;
-
+        margin-bottom: 40px;
     }
 
     .page-header-nav-mobile {
         display: none;
     }
 
-/*====================MOBILE MENU====================*/
 
     .mobile-menu {
         position: fixed;
@@ -68,9 +42,18 @@
 
 
     .container-mobile-menu {
+        height: 100vh;
         position: relative;
         padding-top: 80px;
         padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .number-link{
+        font-size: 28px;
+        
     }
 
     .button-model-mobile-menu {
@@ -106,13 +89,74 @@ screen and (min-resolution: 2dppx) and (max-width:767px){
 
 
     .model {
+        padding-top: 72px;
         position: fixed;
         width: 90%;
         height: 90vh;
         overflow: scroll;
     }
 
-
+    .model-policy{
+        font-size: 10px;
+    }
 
 
 }
+
+
+@media screen and (min-width:480px) {
+    .container {
+        width: 428px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .number-link{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+/*====================MAIN====================*/
+/* ======================section-title================== */
+    .title {
+        width: 320px;
+    }
+/* ======================/section-title================== */
+
+/* ======================section-customers================== */
+    .item-customers{
+        width: 190px;
+    }
+/* ======================/section-customers================== */
+
+/*====================/MAIN====================*/
+/*====================FOOTER====================*/
+    .content-footer{
+        width: 268px;
+    }   
+/*====================/FOOTER====================*/
+    .model{
+        width: 392px;
+    }
+
+
+    .model-policy {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+        color: var(--color-text-model-policy);
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+}
+
+
+

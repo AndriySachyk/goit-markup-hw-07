@@ -147,12 +147,7 @@ ul,ol{
     margin-left: auto;
 }
 
-.page-header-nav{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-bottom: 284px;
-}
+
 
 
 .nav-link-header {
@@ -476,8 +471,6 @@ ul,ol{
 }
 
 .list-icon-customers{
-    padding-left: 16px;
-    padding-right: 16px;
     margin-top: 72px;
     display: flex;
     justify-content: center;
@@ -864,8 +857,6 @@ ul,ol{
 
 .model {
     position: fixed;
-    width: 90%;
-    height: 100vh;
     overflow: scroll;   
     margin-left: auto;
     margin-left: auto;
